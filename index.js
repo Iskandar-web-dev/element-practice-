@@ -1,5 +1,5 @@
 let main = document.querySelector('main')
-
+for (let i = 0; i <= 5; i++) {
 //create div
 let products = document.createElement('div')
 let product = document.createElement('div')
@@ -63,7 +63,7 @@ bag.append(imgBag)
 product.append(bag, down)
 products.append(product)
 main.append(products)
-
+}
 
 
 
